@@ -1,0 +1,21 @@
+{
+  "name": "truncatewallet",
+  "version": "1.0.2",
+  "description": "a simple package to truncate wallet",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "web3",
+    "account",
+    "wallet"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilenice/truncatewallet.git"
+  },
+  "author": "vilenice",
+  "license": "MIT"
+}
