@@ -1,3 +1,5 @@
-// const isOdd = require('truncatewallet');
-import isOdd from "truncatewallet"
-console.log(isOdd(''));
+'use strict';
+
+module.exports = function truncatewallet(account) {
+    return account ? `${account.substring(0, 6)}...${account.substring(account.length - 4)}` : account;
+};
